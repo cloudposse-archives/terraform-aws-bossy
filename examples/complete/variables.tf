@@ -1,4 +1,6 @@
-variable "example" {
+
+variable "function_name" {
+  description = "Unique name for the Lambda Function."
   type        = string
-  description = "The value which will be passed to the example module"
+  default     = "Bossy"
 }
